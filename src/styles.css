@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: "Grand Hotel", cursive;
+  text-align: center;
+  font-size: 13rem;
+  font-weight: 100;
+  margin: 2rem 0;
+  letter-spacing: -1px;
+  text-decoration: none;
+  color: black;
+}
+
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.figure {
+  margin: 0 2rem 2rem 2rem;
+  padding: 2rem;
+  border: 1px solid #d3d3d3;
+  flex-grow: 1;
+  flex-basis: calc(33.333% - 4rem);
+}
+
+.photo {
+  width: calc(100% + 4rem);
+  margin-top: -2rem;
+  margin-left: -2rem;
+  max-width: none;
+}
+
+figcaption p {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 2rem;
+}
+
+.button-container button {
+  background-color: white;
+  padding: 1rem 2rem;
+  border: 1px solid #d3d3d3;
+  color: #ff0000;
+  cursor: pointer;
+}
